@@ -4,7 +4,7 @@ export default function Link({ href, className, children }) {
       href={href}
       target="_blank"
       rel="noreferrer"
-      className={className + " hover:mb-10"}
+      className={className + " relative hover:bottom-5"}
     >
       {children}
     </a>
